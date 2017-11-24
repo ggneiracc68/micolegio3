@@ -1,0 +1,176 @@
+/* CSS Document */
+/*
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#63F;
+}
+
+header, nav, section, footer{
+	margin:0 auto;
+	width:90%;
+}
+*/
+header{
+	border:1px dashed red;
+	/*
+	background:#C93;
+	min-height:160px;
+	*/
+}
+/*
+header #logo{
+	border:1px solid green;
+	background-color:green;
+}
+*/
+#insignia{border:1px solid red; /*background:#C33;*/}
+#nombre{border:1px solid red; /*background:#F06;*/}
+
+#escudo_msj{border:1px solid #000; /*background:#669;*/}
+/*
+header #logo #escudo_img, 
+header #logo #escudo_msj{
+	width:49%;
+	border:1px dashed #000;
+	color:#000;	
+	height:160px;
+	text-align:center;
+	line-height:160px;
+	display:inline-block;
+}
+
+header #logo #escudo_img #insignia,
+header #logo #escudo_img #nombre{
+	width:49%;
+	display:inline-block;
+}
+*/
+nav{
+	border:1px solid yellow;
+	/*background-color:#36F;*/
+}
+
+section{
+	border:1px solid #FFF;
+	/*background-color:#FC3;*/
+}
+/*
+section article #galeria{
+	min-height:400px;
+}
+*/
+section article #educacion,
+section article #varios{
+	
+	border:1px solid yellow;
+	/* background-color:#3C3;
+	min-height:200px;
+	display:inline-block;
+	*/
+}
+/*
+#educacion{width:24%;}
+#varios{width:49%;}
+*/
+article{
+	border:1px solid #FFF;
+	/*
+	background-color:#9C0;
+	text-align:center;
+	padding:0;
+	*/
+}
+
+footer{
+	border:1px dashed red;
+	/*
+	background:#C93;
+	min-height:160px;
+	*/
+}
+/*
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	header #logo #escudo_img #insignia, header #logo #escudo_img #nombre{
+		position:relative;
+		display:list-item;
+		height:80px;
+		width:100%;
+		line-height:80px;
+	}
+
+	#escudo_msj{
+		width:49%; 
+		height:80px;
+		float:right;
+		font-size:18px;		
+	}
+
+	header, nav, section, footer{width:100%;}
+}
+
+@media only screen and (min-width: 200px) and (max-width: 479px) {
+	header #logo #escudo_img{
+		height:140px;
+		line-height:60px;			
+	}
+	
+	header #logo #escudo_img, 
+	header #logo #escudo_msj{
+		width:100%;
+		display:list-item;
+	}
+	
+	header #logo #escudo_img #insignia, header #logo #escudo_img #nombre{
+		height:70px;
+		width:100%;		
+		display:list-item;
+		top:0px;
+	}
+
+	header #logo #escudo_msj{
+		display:list-item;
+		height:40px;
+		line-height:40px;
+		font-size:10px;			
+	}
+
+	header, nav, section, footer{width:100%;}
+}
+
+@media only screen and (min-width: 10px) and (max-width: 199px) {
+	header, #logo{
+	min-height:120px;
+	}
+	
+	header #logo #escudo_img{
+		height:80px;
+		line-height:60px;			
+	}
+	
+	header #logo #escudo_img, 
+	header #logo #escudo_msj{
+		width:100%;
+	}
+	
+	header #logo #escudo_img #insignia, header #logo #escudo_img #nombre{
+		height:40px;
+		width:100%;		
+		display:list-item;
+		top:0px;
+	}
+
+	header #logo #escudo_msj{
+		display:list-item;
+		height:40px;
+		line-height:40px;
+		font-size:6px;
+	}
+
+	header, nav, section, footer{width:100%;}
+}
+*/
